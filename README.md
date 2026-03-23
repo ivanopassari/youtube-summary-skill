@@ -19,10 +19,19 @@ No global Python packages needed — `uv` handles the `youtube-transcript-api` d
 
 ## Installation
 
+### Via ClawHub (recommended)
+
+```bash
+/plugin marketplace add ivanopassari/youtube-summary-skill
+/plugin install youtube-summary@youtube-summary-skill
+```
+
+### Manual installation
+
 Clone this repo into your Claude Code skills directory:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/claude-skill-youtube-summary.git \
+git clone https://github.com/ivanopassari/youtube-summary-skill.git \
   ~/.claude/skills/youtube-summary
 ```
 
@@ -61,7 +70,7 @@ Supported URL formats:
 
 ## Output example
 
-### 🎬 Video Summary
+### Video Summary
 
 **Overview**
 Brief introductory paragraph about the video's topic.

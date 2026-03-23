@@ -1,0 +1,23 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "youtube-summary-skill",
+  "description": "Fetch YouTube transcripts and generate structured summaries",
+  "owner": {
+    "name": "Ivano Passari",
+    "url": "https://github.com/ivanopassari"
+  },
+  "plugins": [
+    {
+      "name": "youtube-summary",
+      "description": "Fetch a YouTube video transcript and provide a structured summary",
+      "version": "1.0.0",
+      "author": {
+        "name": "Ivano Passari",
+        "url": "https://github.com/ivanopassari"
+      },
+      "source": "./",
+      "category": "productivity",
+      "homepage": "https://github.com/ivanopassari/youtube-summary-skill"
+    }
+  ]
+}

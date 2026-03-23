@@ -1,0 +1,9 @@
+assets/
+docs/
+tests/
+fixtures/
+plans/
+*.pyc
+__pycache__/
+.git/
+.github/

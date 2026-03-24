@@ -10,7 +10,7 @@
     {
       "name": "youtube-summary",
       "description": "Fetch a YouTube video transcript and provide a structured summary",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": {
         "name": "Ivano Passari",
         "url": "https://github.com/ivanopassari"

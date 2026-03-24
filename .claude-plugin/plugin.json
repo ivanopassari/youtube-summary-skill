@@ -1,6 +1,6 @@
 {
   "name": "youtube-summary",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Fetch a YouTube video transcript and provide a structured summary",
   "author": {
     "name": "Ivano Passari",

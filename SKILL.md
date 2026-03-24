@@ -1,6 +1,6 @@
 ---
 name: youtube-summary
-version: "1.0.5"
+version: "1.0.6"
 description: |
   Fetch a YouTube video transcript and provide a structured summary.
   Usage: /youtube-summary <youtube-url> [--lang <language>]

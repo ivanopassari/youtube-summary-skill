@@ -1,6 +1,6 @@
 ---
 name: youtube-summary
-version: "1.0.2"
+version: "1.0.3"
 description: |
   Fetch a YouTube video transcript and provide a structured summary.
   Usage: /youtube-summary <youtube-url> [--lang <language>]
@@ -41,9 +41,7 @@ You are tasked with fetching a YouTube video transcript and producing a structur
 
 2. **Fetch the transcript**: Run the following command via Bash:
    ```bash
-   SCRIPT=$(find ~/.claude/plugins/cache/youtube-summary-skill -name "fetch_transcript.py" 2>/dev/null | sort -V | tail -1)
-   [ -z "$SCRIPT" ] && SCRIPT="$HOME/.claude/skills/youtube-summary-skill/fetch_transcript.py"
-   uv run --no-project --with youtube-transcript-api python "$SCRIPT" "$URL"
+   uv run --no-project --with youtube-transcript-api python -c "import sys,pathlib,runpy; h=pathlib.Path.home(); c=sorted(h.glob('.claude/plugins/cache/youtube-summary-skill/**/fetch_transcript.py')); s=c[-1] if c else h/'.claude/skills/youtube-summary-skill/fetch_transcript.py'; sys.argv=[str(s)]+sys.argv[1:]; runpy.run_path(str(s),run_name='__main__')" "$URL"
    ```
    Replace `$URL` with the actual YouTube URL.
 

@@ -41,7 +41,7 @@ You are tasked with fetching a YouTube video transcript and producing a structur
 
 2. **Fetch the transcript**: Run the following command via Bash:
    ```bash
-   uv run --no-project --with youtube-transcript-api python ~/.claude/skills/youtube-summary/fetch_transcript.py "$URL"
+   uv run --no-project --with youtube-transcript-api python ~/.claude/skills/youtube-summary-skill/fetch_transcript.py "$URL"
    ```
    Replace `$URL` with the actual YouTube URL.
 

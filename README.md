@@ -31,14 +31,14 @@ Clone this repo into your Claude Code skills directory:
 
 ```bash
 git clone https://github.com/ivanopassari/youtube-summary-skill.git \
-  ~/.claude/skills/youtube-summary
+  ~/.claude/skills/youtube-summary-skill
 ```
 
 Or copy the files manually:
 
 ```bash
-mkdir -p ~/.claude/skills/youtube-summary
-cp SKILL.md fetch_transcript.py ~/.claude/skills/youtube-summary/
+mkdir -p ~/.claude/skills/youtube-summary-skill
+cp SKILL.md fetch_transcript.py ~/.claude/skills/youtube-summary-skill/
 ```
 
 That's it. Claude Code will pick up the skill automatically on the next session.

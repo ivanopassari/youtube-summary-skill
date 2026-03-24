@@ -22,6 +22,7 @@ No global Python packages needed — `uv` handles the `youtube-transcript-api` d
 ### Via ClawHub (recommended)
 
 ```bash
+/plugin marketplace add ivanopassari/youtube-summary-skill
 /plugin install youtube-summary-skill
 ```
 

@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.0.6] - 2026-03-24
+
+### Fixed
+- Remove trailing comma in `plugin.json` that caused JSON parse error during installation
+
 ## [1.0.5] - 2026-03-24
 
 ### Fixed

@@ -1,6 +1,6 @@
 {
   "name": "youtube-summary",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Fetch a YouTube video transcript and provide a structured summary",
   "author": {
     "name": "Ivano Passari",
@@ -12,7 +12,7 @@
   "category": "productivity",
   "tags": ["youtube", "transcript", "summary", "productivity"],
   "emoji": "🎬",
-  "skill": "SKILL.md",
+  "skills": ["./"],
   "user-invocable": true,
   "argument-hint": "/youtube-summary https://youtube.com/watch?v=VIDEO_ID --lang italian",
   "allowed-tools": ["Bash", "Write", "AskUserQuestion"],

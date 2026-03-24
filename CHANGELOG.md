@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.0.2] - 2026-03-24
+
+### Fixed
+- Fix script path resolution: look up `fetch_transcript.py` in the plugin cache first, then fall back to `~/.claude/skills/`, so the skill works after installing via `/plugin install` without requiring a manual file copy
+
 ## [1.0.0] - 2026-03-23
 
 ### Added

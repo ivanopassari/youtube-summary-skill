@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.0.3] - 2026-03-24
+
+### Fixed
+- Replace bash-specific path resolution with a pure Python one-liner for full cross-platform support (Linux, macOS, Windows)
+
 ## [1.0.2] - 2026-03-24
 
 ### Fixed
